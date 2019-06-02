@@ -1,0 +1,713 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+
+body{
+	width: 100%;
+	margin: 0;
+}
+
+#name{
+	position: fixed;
+	float: left;
+	text-decoration: none;
+	color: #171617;
+	margin-left: 4.5rem;
+	font-size: 1.8vw;
+	margin-top: 2.7rem;
+	font-family: 'Lato-Bold', sans-serif;
+	line-height: 0.8;
+}
+
+li{
+	float: right;
+	list-style-type: none;
+	margin-right: -0.5rem;
+}
+
+nav{
+  position: fixed;
+  top: 4rem;
+  left: 0;
+  right: 0;
+	width: 100%;
+}
+
+nav li a:hover{
+	border-bottom: 2px solid #171617;
+	margin-top: -2rem;
+}
+
+ul {
+  font-size: 0.83vw;
+	margin-right: 8.5rem;
+	margin-top: -0.6rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	line-height: 1.5;
+	width: 89%;
+}
+
+li a {
+  color:#171617;
+  padding: 14px 16px;
+	text-decoration: none;
+	width: 2%;
+}
+
+#tekst1{
+	text-align: center;
+	margin-top: -85rem;
+	font-family: 'Lato-Bold', sans-serif;
+	letter-spacing: 0.1em;
+	font-size: 0.97vw;
+	color: #171617;
+}
+
+#name1{
+	text-align: center;
+	color: #171617;
+	font-family: 'Lato-Bold', sans-serif;
+	line-height: 1.25;
+	letter-spacing: 0.1em;
+	font-size: 7vw;
+	margin-top: 1.5rem;
+}
+
+#pijl img{
+	width: 5rem;
+	margin-left: 42rem;
+	margin-top: -3rem;
+}
+
+#welkom{
+	text-align: center;
+	margin-top: 15rem;
+	font-family: 'Lato-Bold', sans-serif;
+	color: #171617;
+	font-size: 1.5vw;
+	letter-spacing: 0.1em;
+	line-height: 1.5;
+}
+
+#info{
+	color: #171617;
+	line-height: 1.6;
+	font-family: 'OpenSans-Light', sans-serif;
+	text-align: center;
+	margin-top: 2rem;
+	font-size: 1.2vw;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+#parallax {
+    background-image: url("../IMG/home.jpg");
+    min-height: 100vh;
+		width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax1 {
+    background-image: url("../IMG/overmij.jpg");
+    min-height: 100vh;
+		width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax2 {
+    background-image: url("../IMG/contact.jpg");
+    min-height: 100vh;
+		width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#wit{
+	height: 900px;
+	background-color: white;
+}
+
+#ik img{
+	width: 10rem;
+	margin-left: 39.5rem;
+	margin-top: 2rem;
+	border-radius: 30rem;
+}
+
+#meerinfo{
+	background-color: #666666;
+	border: none;
+	border-radius: 40rem;
+  min-width: 10rem;
+	padding: 16px 35px;
+	font-family: 'Lato-Bold', sans-serif;
+	color: white;
+	font-size: 1vw;
+	letter-spacing: 0.1em;
+	line-height: 1.6;
+	margin-left: 37rem;
+	margin-top: 2rem;
+	cursor: pointer;
+}
+
+#meerinfo:hover{
+	background-color: #555659;
+}
+
+#projecten{
+	text-align: center;
+	font-family: 'Lato-Bold', sans-serif;
+	margin-top: 7rem;
+	font-size: 1.5vw;
+	letter-spacing: 0.1em;
+	color: #171617;
+}
+
+.foto{
+	width: 100%;
+}
+
+.foto img{
+	width: 25.7rem;
+	float: left;
+	margin-left: 2.9rem;
+	margin-top: 3rem;
+	margin-bottom: 4rem;
+	cursor: pointer;
+}
+
+#t1{
+	float: left;
+	font-family: 'Lato-Bold', sans-serif;
+	font-size: 1vw;
+	margin-top: 22.5rem;
+	margin-left: -19rem;
+	cursor: pointer;
+	color: #171617;
+}
+
+#t2{
+	float: left;
+	font-family: 'Lato-Bold', sans-serif;
+	font-size: 1vw;
+	margin-top: 22.5rem;
+	margin-left: -18.5rem;
+	cursor: pointer;
+	color: #171617;
+}
+
+#t3{
+	float: left;
+	font-family: 'Lato-Bold', sans-serif;
+	font-size: 1vw;
+	margin-top: 22.5rem;
+	margin-left: -18rem;
+	cursor: pointer;
+	color: #171617;
+}
+
+#t4{
+	float: left;
+	font-family: 'Lato-Bold', sans-serif;
+	font-size: 1vw;
+	margin-top: 21.3rem;
+	margin-left: -18.5rem;
+	cursor: pointer;
+	color: #171617;
+}
+
+#t5{
+	float: left;
+	font-family: 'Lato-Bold', sans-serif;
+	font-size: 1vw;
+	margin-top: 21.3rem;
+	margin-left: -19.5rem;
+	cursor: pointer;
+	color: #171617;
+}
+
+#t6{
+	float: left;
+	font-family: 'Lato-Bold', sans-serif;
+	font-size: 1vw;
+	margin-top: 21.3rem;
+	margin-left: -19.5rem;
+	cursor: pointer;
+	color: #171617;
+}
+
+#o1{
+	font-family: 'OpenSans-Light', sans-serif;
+	color: #171617;
+	font-size: 0.9vw;
+	margin-left: -17.7rem;
+	float: left;
+	margin-top: 24.5rem;
+	cursor: pointer;
+}
+
+#o2{
+	font-family: 'OpenSans-Light', sans-serif;
+	color: #171617;
+	font-size: 0.9vw;
+	margin-left: -16.5rem;
+	float: left;
+	margin-top: 24.5rem;
+	cursor: pointer;
+}
+
+#o3{
+	font-family: 'OpenSans-Light', sans-serif;
+	color: #171617;
+	font-size: 0.9vw;
+	margin-left: -16.4rem;
+	float: left;
+	margin-top: 24.5rem;
+	cursor: pointer;
+}
+
+#o4{
+	font-family: 'OpenSans-Light', sans-serif;
+	color: #171617;
+	font-size: 0.9vw;
+	margin-left: -16.9rem;
+	float: left;
+	margin-top: 23.4rem;
+	cursor: pointer;
+}
+
+#o5{
+	font-family: 'OpenSans-Light', sans-serif;
+	color: #171617;
+	font-size: 0.9vw;
+	margin-left: -16rem;
+	float: left;
+	margin-top: 23.4rem;
+	cursor: pointer;
+}
+
+#o6{
+	font-family: 'OpenSans-Light', sans-serif;
+	color: #171617;
+	font-size: 0.9vw;
+	margin-left: -17.8rem;
+	float: left;
+	margin-top: 23.4rem;
+	cursor: pointer;
+}
+
+.foto img:hover{
+	opacity: 0.4;
+}
+
+footer{
+	background-color: #171617;
+	color: white;
+	width: 100%;
+	margin-top: 55rem;
+	padding-bottom: 5rem;
+}
+
+#footer1{
+	background-color: #171617;
+	color: white;
+	width: 100%;
+	margin-top: 10rem;
+	padding-bottom: 5rem;
+}
+
+#ik1{
+	font-family: 'Lato-Bold', sans-serif;
+	letter-spacing: 0.1em;
+	font-size: 2.2vw;
+	margin-left: 15rem;
+	padding-top: 3rem;
+	font-weight: 900;
+}
+
+#ik2{
+	font-family: 'Lato-Bold', sans-serif;
+	letter-spacing: 0.1em;
+	margin-left: 49rem;
+	margin-top: -3rem;
+	font-size: 1vw;
+}
+
+#maand{
+	font-family: 'OpenSans-Light', sans-serif;
+	letter-spacing: 0.1em;
+	font-size: 0.9vw;
+	margin-left: 49rem;
+	margin-top: 3rem;
+}
+
+#insta1{
+	font-family: 'OpenSans-Light', sans-serif;
+	letter-spacing: 0.1em;
+	font-size: 0.9vw;
+	margin-left: 49rem;
+}
+
+#insta img{
+	width: 2rem;
+	margin-left: 49rem;
+	margin-top: 0.5rem;
+}
+
+#Contact {
+	margin-top: 3rem;
+	margin-right: 30rem;
+	margin-left: 30rem;
+	font-family: 'OpenSans-Light', sans-serif;
+	font-size: 1.2vw;
+}
+
+@media only screen and (max-width: 780px){
+	#name{
+		margin-left: 3rem;
+		font-size: 3vw;
+	}
+
+	li{
+		margin-right: -1rem;
+	}
+
+	ul {
+	  font-size: 1.4vw;
+		margin-top: -0.8rem;
+	}
+
+	#tekst1{
+		font-size: 1.7vw;
+	}
+
+	#name1{
+		font-size: 8vw;
+	}
+
+	#pijl img{
+		margin-left: 22rem;
+		margin-top: -1rem;
+	}
+
+	#welkom{
+		margin-top: 17rem;
+		font-size: 2.8vw;
+	}
+
+	#info{
+		margin-top: 2rem;
+		font-size: 1.8vw;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	#ik img{
+		margin-left: 18.5rem;
+		margin-top: 1rem;
+	}
+
+	#meerinfo{
+		border-radius: 40rem;
+	  min-width: 10rem;
+		padding: 14px 32px;
+		font-size: 1.6vw;
+		margin-left: 17.5rem;
+	}
+
+	#projecten{
+		font-size: 2.8vw;
+	}
+
+	.foto img{
+		width: 20rem;
+		margin-left: 2.6rem;
+		margin-top: 2rem;
+	}
+
+	#t1{
+		font-size: 1.8vw;
+		margin-top: 18rem;
+		margin-left: -16.5rem;
+	}
+
+	#o1{
+		font-size: 1.5vw;
+		margin-left: -15rem;
+		margin-top: 20.5rem;
+	}
+
+	#t2{
+		font-size: 1.8vw;
+		margin-top: 18rem;
+		margin-left: -16rem;
+	}
+
+	#o2{
+		font-size: 1.5vw;
+		margin-left: -14rem;
+		margin-top: 20.5rem;
+	}
+
+	#t3{
+		font-size: 1.8vw;
+		margin-top: 18rem;
+		margin-left: -15.5rem;
+	}
+
+	#o3{
+		font-size: 1.5vw;
+		margin-left: -14rem;
+		margin-top: 20.5rem;
+	}
+
+	#t4{
+		font-size: 1.8vw;
+		margin-top: 18rem;
+		margin-left: -15.5rem;
+	}
+
+	#o4{
+		font-size: 1.5vw;
+		margin-left: -14rem;
+		margin-top: 20.5rem;
+	}
+
+	#t5{
+		font-size: 1.8vw;
+		margin-top: 18rem;
+		margin-left: -17.7rem;
+	}
+
+	#o5{
+		font-size: 1.5vw;
+		margin-left: -14.5rem;
+		margin-top: 20.5rem;
+	}
+
+	#t6{
+		font-size: 1.8vw;
+		margin-top: 18rem;
+		margin-left: -16.5rem;
+	}
+
+	#o6{
+		font-size: 1.5vw;
+		margin-left: -14.5rem;
+		margin-top: 20.5rem;
+	}
+
+	footer{
+		margin-top: 70rem;
+		padding-bottom: 5rem;
+	}
+
+	#ik1{
+		font-size: 2.8vw;
+		margin-left: 2rem;
+	}
+
+	#ik2{
+		margin-left: 2rem;
+		margin-top: 4rem;
+		font-size: 2vw;
+	}
+
+	#maand{
+		font-size: 1.7vw;
+		margin-left: 2rem;
+		margin-top: 1rem;
+	}
+
+	#insta1{
+		font-size: 1.7vw;
+		margin-left: 2rem;
+	}
+
+	#insta img{
+		margin-left: 2rem;
+	}
+
+	#Contact {
+		margin-right: 15rem;
+		margin-left: 15rem;
+		font-size: 2vw;
+	}
+}
+
+
+@media only screen and (max-width: 580px){
+	#name{
+		margin-left: 2rem;
+		font-size: 3.5vw;
+	}
+
+	li{
+		margin-right: 0rem;
+	}
+
+	ul {
+		font-size: 1.6vw;
+	}
+
+	#tekst1{
+		font-size: 2.3vw;
+	}
+
+	#name1{
+		font-size: 8.3vw;
+	}
+
+	#pijl img{
+		margin-left: 15rem;
+		width: 4rem;
+	}
+
+	#welkom{
+		margin-top: 20rem;
+		font-size: 3.5vw;
+	}
+
+	#info{
+		font-size: 2vw;
+	}
+
+	#ik img{
+		margin-left: 12.5rem;
+		margin-top: 1rem;
+	}
+
+	#meerinfo{
+		font-size: 2vw;
+		margin-left: 11rem;
+	}
+
+	#projecten{
+		font-size: 3.5vw;
+	}
+
+	.foto img{
+		width: 30rem;
+		margin-left: 2.6rem;
+		margin-top: 2rem;
+	}
+
+	#t1{
+		font-size: 2.5vw;
+		margin-top: 25rem;
+		margin-left: -21rem;
+	}
+
+	#o1{
+		font-size: 2vw;
+		margin-left: -19.5rem;
+		margin-top: 27.5rem;
+	}
+
+	#t2{
+		font-size: 2.5vw;
+		margin-top: 19.5rem;
+		margin-left: -21rem;
+	}
+
+	#o2{
+		font-size: 2vw;
+		margin-left: -19rem;
+		margin-top: 22rem;
+	}
+
+	#t3{
+		font-size: 2.5vw;
+		margin-top: 25rem;
+		margin-left: -21rem;
+	}
+
+	#o3{
+		font-size: 2vw;
+		margin-left: -19.5rem;
+		margin-top: 27.5rem;
+	}
+
+	#t4{
+		font-size: 2.5vw;
+		margin-top: 23.5rem;
+		margin-left: -21rem;
+	}
+
+	#o4{
+		font-size: 2vw;
+		margin-left: -19.5rem;
+		margin-top: 26rem;
+	}
+
+	#t5{
+		font-size: 2.5vw;
+		margin-top: 19.5rem;
+		margin-left: -22.5rem;
+	}
+
+	#o5{
+		font-size: 2vw;
+		margin-left: -19.5rem;
+		margin-top: 22rem;
+	}
+
+	#t6{
+		font-size: 2.5vw;
+		margin-top: 23.5rem;
+		margin-left: -22rem;
+	}
+
+	#o6{
+		font-size: 2vw;
+		margin-left: -20rem;
+		margin-top: 26rem;
+	}
+
+	footer{
+		margin-top: 163rem;
+		padding-bottom: 3rem;
+	}
+
+	#ik1{
+		font-size: 4vw;
+		margin-left: 3rem;
+	}
+
+	#ik2{
+		margin-left: 3rem;
+		margin-top: 2rem;
+		font-size: 2.5vw;
+	}
+
+	#maand{
+		font-size: 2.3vw;
+		margin-left: 3rem;
+	}
+
+	#insta1{
+		font-size: 2.3vw;
+		margin-left: 3rem;
+	}
+
+	#insta img{
+		margin-left: 3rem;
+	}
+
+	#Contact {
+		margin-right: 7.5rem;
+		margin-left: 7.5rem;
+		font-size: 2.5vw;
+	}
+}
